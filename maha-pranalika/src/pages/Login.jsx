@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import '../styles/login.css';
-
+import { useNavigate } from 'react-router-dom';
+import { useAuth } from '../components/AuthContext';
 export default function Login() {
   const [form, setForm] = useState({
     email: '',
@@ -8,6 +9,8 @@ export default function Login() {
   });
 
   const [errors, setErrors] = useState({});
+  const { setIsLoggedIn } = useAuth();
+  const navigate = useNavigate();
 
   const handleChange = (e) => {
     const { id, value } = e.target;
@@ -62,6 +65,8 @@ export default function Login() {
     const hasErrors = Object.values(newErrors).some((msg) => msg);
     if (!hasErrors) {
       alert('Logged in successfully!');
+      setIsLoggedIn(true);
+      navigate('/');
     }
   };
 

@@ -2,16 +2,20 @@
   "nav-english": {
     "home": "Home",
     "services": "Services",
-    "signup": "Sign Up",
+    "signup": "Sign up",
     "privacy": "Privacy Policy",
     "faq": "FAQ",
     "terms": "Terms & Conditions",
+    "login":"Login",
+      "logout":"Log out",
     "servicesList": {
       "firm": "Firm Registration",
       "cibilRepair": "CIBIL Score & Repair",
       "cibilTraining": "CIBIL Training",
       "visa": "Visa & Overseas"
-    },
+      
+    }
+  },
     "faq-english": [
       {
         "question": "How long does CIBIL score repair take?",
@@ -34,7 +38,7 @@
         "answer": "Yes, we specialize in MSME cluster formation and approval processes, ensuring documentation, government filings, and follow-ups are handled seamlessly."
       }
     ]
-  },
+  ,
 
   "nav-telugu": {
     "home": "హోమ్",
@@ -43,12 +47,16 @@
     "privacy": "గోప్యతా విధానం",
     "faq": "తరచుగా అడిగే ప్రశ్నలు",
     "terms": "నియమాలు మరియు షరతులు",
+    "login":"ప్రవేశించండి ",
+      "logout":"నిష్క్రమించండి",
     "servicesList": {
       "firm": "ఫర్మ్ నమోదు",
       "cibilRepair": "సిబిల్ స్కోర్ మరియు మరమ్మత్తు",
       "cibilTraining": "సిబిల్ శిక్షణ",
       "visa": "వీసా & విదేశీ సేవలు"
-    },
+      
+    }
+  },
     "faq-telugu": [
       {
         "question": "సిబిల్ స్కోర్ రిపేర్‌కు ఎంత సమయం పడుతుంది?",
@@ -71,5 +79,5 @@
         "answer": "అవును, మేము MSME క్లస్టర్ ఏర్పాటులో మరియు ఆమోద ప్రక్రియలలో ప్రత్యేకత కలిగి ఉన్నాము. మేము డాక్యుమెంటేషన్, ప్రభుత్వ ఫైలింగ్‌లు మరియు ఫాలో-అప్స్‌ను సమర్థవంతంగా నిర్వహిస్తాము."
       }
     ]
-  }
+  
 }
