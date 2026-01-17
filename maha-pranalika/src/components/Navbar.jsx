@@ -88,7 +88,8 @@ export default function Navbar() {
         <div className="nav-header-container">
           <div className="logo-container" onClick={() => goTo("/")}>
             <img src={logo} alt="logo" />
-            <span className="logo-text">{navLabels.logotext}</span>
+            {/* <span className="logo-text">{navLabels.logotext}</span> */}
+            <img src={swayamkrush}  alt="swayamkrush" className="swayamkrush-mobile" />
           </div>
           <button
             className="menu-button"
@@ -103,10 +104,10 @@ export default function Navbar() {
             <ul>
               <li onClick={() => goTo("/")}>{navLabels.home}</li>
 
-              <li onClick={() => setShowMobileDropdown((prev) => !prev)}>
+              {/* <li onClick={() => setShowMobileDropdown((prev) => !prev)}>
                 {navLabels.services} ▾
-              </li>
-              {showMobileDropdown && (
+              </li> */}
+              {/* {showMobileDropdown && (
                 <ul className="mobile-dropdown">
                   <li
                     onClick={() => {
@@ -159,7 +160,11 @@ export default function Navbar() {
 
                   <li onClick={() => goTo("/services/msme")}>MSME</li>
                 </ul>
-              )}
+              )} */}
+              <li
+                onClick={() => window.open("https://www.swayamkrush.in/services", "_blank")}>
+                {navLabels.services}
+                </li>
               <li onClick={() => goTo("/privacy-policy")}>
                 {navLabels.privacy}
               </li>
@@ -203,13 +208,13 @@ export default function Navbar() {
                 style={{ cursor: "pointer" }}
                 onClick={() => goTo("/")}
               />
-              <span
+              {/* <span
                 className="logo-text"
                 style={{ cursor: "pointer" }}
                 onClick={() => goTo("/")}
               >
                 {navLabels.logotext}
-              </span>
+              </span> */}
             </div>
             <div className="swayamkrush-center">
               <img src={swayamkrush} alt="swayamkrush" />
@@ -221,7 +226,7 @@ export default function Navbar() {
                 <span onClick={() => goTo("/")}>{navLabels.home}</span>
               </li>
 
-              <li className="dropdown">
+              {/* <li className="dropdown">
                 <span>{navLabels.services} ▾</span>
                 <ul className="dropdown-content">
                   <li>
@@ -298,7 +303,17 @@ export default function Navbar() {
                     </span>
                   </li>
                 </ul>
+              </li> */}
+              <li>
+                <span 
+                  
+                  onClick={() => window.open("https://www.swayamkrush.in/services", "_blank")}
+                >
+                  {navLabels.services}
+                </span>
               </li>
+
+
 
               <li>
                 <span onClick={() => goTo("/privacy-policy")}>

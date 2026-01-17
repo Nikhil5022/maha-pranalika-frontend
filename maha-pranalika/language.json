@@ -1,10 +1,11 @@
 {
   "nav-english": {
-    "home": "Home",
+    "home": "Homes",
     "services": "Services",
     "signup": "Signup",
     "privacy": "Privacy Policy",
     "faq": "FAQ",
+    
     "terms": "Terms & Conditions",
     "servicesList": {
       "firm": "Firm Registration",
@@ -407,7 +408,7 @@
     "blueBanner": "We are a team of dedicated\nprofessionals with extensive\nindustry experience",
     "envisions": "What we envision for our clients",
     "whyChooseUs": "Why To Choose Us?",
-    "howItWorks": "HOW IT WORKS?",
+    "howItWorks": "HOW PROJECT SWAYAMKRUSH WORKS?",
     "services": [
       {
         "title": "FIRM REGISTRATION",
@@ -428,24 +429,24 @@
     ],
     "team": [
       {
-        "name": "A Ashok Kumar",
-        "title": "AP CDP Head"
+        "name": "Veeresh",
+        "title": "Media"
       },
       {
         "name": "P Guna Rajesh",
-        "title": "TS CDP Head"
+        "title": "CDP Head"
       },
       {
         "name": "S Pavan Kumar",
         "title": "Managing Director"
       },
       {
-        "name": "Abhiram",
-        "title": "Director"
+        "name": "P Abhiram",
+        "title": "Marketing Head"
       },
       {
-        "name": "V S Charan",
-        "title": "Taxation Analyst"
+        "name": "Shyam",
+        "title": "CDP DEPT"
       }
     ],
     "features": [
